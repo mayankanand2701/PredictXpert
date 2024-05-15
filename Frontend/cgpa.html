@@ -35,33 +35,22 @@
     <div class="container mt-3">
         <form id="linearRegressionForm">
           <div class="form-group m-1">
-            <label for="greScore">GRE Score (out of 340):</label>
-            <input type="number" class="form-control" id="greScore" min="260" max="340" step="1">
+            <label for="greScore">Semester 1st ( CGPA ):</label>
+            <input type="number" class="form-control" id="greScore">
           </div>
           <div class="form-group m-1">
-            <label for="toeflScore">TOEFL Score (out of 120):</label>
-            <input type="number" class="form-control" id="toeflScore" min="90" max="120" step="1">
+            <label for="greScore">Semester 2nd ( CGPA ):</label>
+            <input type="number" class="form-control" id="greScore">
           </div>
           <div class="form-group m-1">
-            <label for="universityRating">University Rating (out of 5):</label>
-            <input type="number" class="form-control" id="universityRating" min="1" max="5" step="1">
+            <label for="greScore">Semester 3rd ( CGPA ):</label>
+            <input type="number" class="form-control" id="greScore">
           </div>
           <div class="form-group m-1">
-            <label for="sop">Statement of Purpose (SOP) (out of 5):</label>
-            <input type="number" class="form-control" id="sop" min="1" max="5" step="0.1">
+            <label for="greScore">Semester 4th ( CGPA ):</label>
+            <input type="number" class="form-control" id="greScore">
           </div>
-          <div class="form-group m-1">
-            <label for="lor">Letter of Recommendation (LOR) Strength (out of 5):</label>
-            <input type="number" class="form-control" id="lor" min="1" max="5" step="0.1">
-          </div>
-          <div class="form-group m-1">
-            <label for="cgpa">Undergraduate GPA (out of 10):</label>
-            <input type="number" class="form-control" id="cgpa" min="6" max="10" step="0.01">
-          </div>
-          <div class="form-group m-1">
-            <label for="research">Research Experience (0 or 1):</label>
-            <input type="number" class="form-control" id="research" min="0" max="1" step="1">
-          </div>
+          
           <button type="button" class="btn btn-primary m-1" onclick="predict()">Predict</button>
         </form>
     </div>
