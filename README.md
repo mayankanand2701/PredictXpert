@@ -5,7 +5,6 @@
 - House Price Predictor : Estimates property prices based on features like location, size, and amenities.
 - CGPA Predictor : Forecasts a student's Cumulative Grade Point Average (CGPA) using academic performance metrics.
 - Salary Predictor : Predicts potential salary ranges based on qualifications, experience, and industry.
-- Loan Approval Predictor : Assesses loan approval likelihood based on financial data.
 - Admission Predictor : Predicts chances of admission based on academic and personal factors.
 
 ## License
